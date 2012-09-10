@@ -9,8 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/calendar_button"
-        android:background="@drawable/calendar_icon" />
+        android:text="@string/calendar_button" />
 
     <Button
         android:id="@+id/campus411Button"
@@ -18,8 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/campus_411_button"
-        android:background="@drawable/fouroneone_icon" />
+        android:text="@string/campus_411_button" />
     
  	 <Button
         android:id="@+id/campusMapButton"
@@ -27,8 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="@string/map_button"
-        android:background="@drawable/map_icon" />
+        android:text="@string/map_button" />
 
     <Button
         android:id="@+id/newsButton"
