@@ -8,6 +8,6 @@ public class DiningLocations extends Activity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.dining_activity);
 	}
 }

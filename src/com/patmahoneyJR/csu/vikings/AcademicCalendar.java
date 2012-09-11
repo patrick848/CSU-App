@@ -8,6 +8,6 @@ public class AcademicCalendar extends Activity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.calendar_activity);
 	}
 }
