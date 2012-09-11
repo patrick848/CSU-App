@@ -2,7 +2,7 @@
 
     <string name="app_name">CSU Vikings</string>
     <string name="menu_about">About</string>
-    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_home">CSU Vikings</string>
     <string name="calendar_button">Academic Calendar</string>
     <string name="campus_411_button">Campus 411</string>
     <string name="map_button">Campus Map</string>
