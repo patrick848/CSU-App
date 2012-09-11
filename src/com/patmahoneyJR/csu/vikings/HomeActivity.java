@@ -2,6 +2,7 @@ package com.patmahoneyJR.csu.vikings;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -56,30 +57,48 @@ public class HomeActivity extends Activity implements OnClickListener {
 		switch(v.getId()) {
 		
 		case R.id.calendarButton:
+			Intent calendar = new Intent(this, AcademicCalendar.class);
+			startActivity(calendar);
 			break;
 			
 		case R.id.campus411Button:
+			Intent fourOneOne = new Intent(this, Campus411.class);
+			startActivity(fourOneOne);
 			break;
 			
 		case R.id.mapButton:
+			Intent map = new Intent(this, CampusMap.class);
+			startActivity(map);
 			break;
 		
 		case R.id.newsButton:
+			Intent news = new Intent(this, CampusNews.class);
+			startActivity(news);
 			break;
 		
 		case R.id.fightSongButton:
+			Intent fightSong = new Intent(this, FightSong.class);
+			startActivity(fightSong);
 			break;
 		
 		case R.id.techButton:
+			Intent tech = new Intent(this, CSUTechnology.class);
+			startActivity(tech);
 			break;
 			
 		case R.id.diningButton:
+			Intent dining = new Intent(this, DiningLocations.class);
+			startActivity(dining);
 			break;
 			
 		case R.id.parkingButton:
+			Intent parking = new Intent(this, Parking.class);
+			startActivity(parking);
 			break;
 			
 		case R.id.socialButton:
+			Intent social = new Intent(this, SocialNetwork.class);
+			startActivity(social);
 			break;
 			
 		}
