@@ -17,21 +17,21 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/calendar_button" />
+            android:text="@string/calendar" />
 
         <Button
             android:id="@+id/campus411Button"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/campus_411_button" />
+            android:text="@string/campus_411" />
 
         <Button
             android:id="@+id/mapButton"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/map_button" />
+            android:text="@string/map" />
     </TableRow>
 
     <TableRow
@@ -45,21 +45,21 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/news_button" />
+            android:text="@string/news" />
 
         <Button
             android:id="@+id/fightSongButton"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/fight_song_button" />
+            android:text="@string/fight_song" />
 
         <Button
             android:id="@+id/techButton"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/tech_button" />
+            android:text="@string/tech" />
     </TableRow>
 
     <TableRow
@@ -73,20 +73,20 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/dining_button" />
+            android:text="@string/dining" />
 
         <Button
             android:id="@+id/parkingButton"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/parking_button" />
+            android:text="@string/parking" />
 
         <Button
             android:id="@+id/socialButton"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/social_button" />
+            android:text="@string/social" />
     </TableRow>
 </TableLayout>
