@@ -12,5 +12,29 @@
     <string name="dining">Dining Locations</string>
     <string name="social">Social Network</string>
     <string name="parking">Parking</string>
-
+    <string name="cal_filler">This links to the schools calendar page.
+        I think that it would look better if it could be parsed
+        into the app, but we\'ll see…</string>
+    <string name="four_filler">This has information about Campus 411,
+        Such as a map button and a call button, which
+        currently starts a call but should instead get a call ready.</string>
+    <string name="map_filler">This is just a large, ugly ListView
+        of all of the unique places on campus.  Clicking on one pulls
+        up a crappy old Google Maps API view.  I WANT IT BEAUTIFUL!</string>
+    <string name="news_filler">Again another ugly ListView, but it\'s parsed 
+        from somewhere online which is cool, but clicking an article
+        opens up the browser to it, instead of bringing the data
+        to you.</string>
+    <string name="fight_filler">The lyrics to the "The Pride of Cleveland"
+        and a play/pause button for the fight song to be played.</string>
+    <string name="tech_filler">ListView of tech related things, 
+        and some buttons withing those things.</string>
+    <string name="dining_filler">ListView of dining locations.  All 
+        items bring you to websites of places, which isn\'t a 
+        terrible idea.</string>
+	<string name="parking_filler">ListView of parking garages, when clicked 
+	    bring you to the old Google Maps view of them.</string>
+	<string name="social_filler">Page of text with links to all of
+	     their social network accounts.</string>
+    
 </resources>
