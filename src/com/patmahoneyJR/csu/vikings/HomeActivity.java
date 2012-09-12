@@ -8,6 +8,16 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**
+ * 
+ * @author Patrick Mahoney
+ * 
+ * This is my remake of the Cleveland State University app.
+ * It's not perfect, and I'm still learning, but I think that it
+ * will (eventually) be much better than the one out now.
+ * 
+ */
+
 public class HomeActivity extends Activity implements OnClickListener {
 	
 	private Button calendarButton;
@@ -24,6 +34,8 @@ public class HomeActivity extends Activity implements OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        
+        // Instantiating my variables and setting onClickListeners for them
         
         calendarButton = (Button) findViewById(R.id.calendarButton);
         calendarButton.setOnClickListener(this);
@@ -53,6 +65,8 @@ public class HomeActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+		
+		// Switch to get the id of the button clicked.
 		
 		switch(v.getId()) {
 		
