@@ -21,10 +21,6 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name=".AcademicCalendar"
-            android:label="@string/calendar" >
-        </activity>
-        <activity 
             android:name=".Campus411"
             android:label="@string/campus_411" >
         </activity>
