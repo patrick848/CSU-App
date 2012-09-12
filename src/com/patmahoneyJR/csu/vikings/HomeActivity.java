@@ -1,5 +1,6 @@
 package com.patmahoneyJR.csu.vikings;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -71,7 +72,8 @@ public class HomeActivity extends Activity implements OnClickListener {
 		switch(v.getId()) {
 		
 		case R.id.calendarButton:
-			Intent calendar = new Intent(this, AcademicCalendar.class);
+			Uri calendarUrl = Uri.parse("http://m.csuohio.edu/calendar.html");
+			Intent calendar = new Intent(Intent.ACTION_VIEW, calendarUrl);
 			startActivity(calendar);
 			break;
 			
