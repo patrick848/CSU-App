@@ -12,9 +12,14 @@
     <string name="dining">Dining Locations</string>
     <string name="social">Social Network</string>
     <string name="parking">Parking</string>
-    <string name="four_filler">This has information about Campus 411,
-        Such as a map button and a call button, which
-        currently starts a call but should instead get a call ready.</string>
+    <string name="four_one_one_about">Campus 411 is a one-stop service center
+        that can assist you with any questions regarding your admission,
+        academic record, financial aid, registration, and your student
+        account.</string>
+    <string name="four_one_one_mission">Our mission is to provide a centralized
+        location where the University community is effectively and efficiently
+        served, resolve issues in support of educational goals, 
+        and empower students to manage their academic life.</string>
     <string name="map_filler">This is just a large, ugly ListView
         of all of the unique places on campus.  Clicking on one pulls
         up a crappy old Google Maps API view.  I WANT IT BEAUTIFUL!</string>
