@@ -12,9 +12,6 @@
     <string name="dining">Dining Locations</string>
     <string name="social">Social Network</string>
     <string name="parking">Parking</string>
-    <string name="cal_filler">This links to the schools calendar page.
-        I think that it would look better if it could be parsed
-        into the app, but we\'ll see…</string>
     <string name="four_filler">This has information about Campus 411,
         Such as a map button and a call button, which
         currently starts a call but should instead get a call ready.</string>
