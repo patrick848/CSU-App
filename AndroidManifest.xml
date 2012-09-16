@@ -2,6 +2,8 @@
     package="com.patmahoneyJR.csu.vikings"
     android:versionCode="1"
     android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -11,6 +13,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        <uses-library android:name="com.google.android.maps"/>
+        
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home" >
