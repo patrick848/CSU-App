@@ -64,7 +64,6 @@ public class HomeActivity extends Activity implements OnClickListener {
         return true;
     }
 
-	@Override
 	public void onClick(View v) {
 		
 		// Switch to get the id of the button clicked.
