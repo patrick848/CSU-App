@@ -9,7 +9,6 @@ import org.jsoup.nodes.Element;
 import android.app.ListActivity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
@@ -20,8 +19,9 @@ public class CampusNews extends ListActivity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-	        	
-        fillNewsItems();
+		
+        GetNewsItemsTask getNews = new GetNewsItemsTask();
+		getNews.execute();
 	}
 	
 	private class GetNewsItemsTask extends AsyncTask<Void, Void, ArrayList<String>> {
@@ -39,16 +39,12 @@ public class CampusNews extends ListActivity {
 			}
 			return items;
 		}
+		
 		protected void onPostExecute(ArrayList<String> items) {
 			
 			setListAdapter(new ArrayAdapter<String>(getApplicationContext(),
 	                android.R.layout.simple_list_item_1,
 	                items));
 		}
-	}
-	
-	private void fillNewsItems() {
-		GetNewsItemsTask getNews = new GetNewsItemsTask();
-		getNews.execute();
 	}
 }
