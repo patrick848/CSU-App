@@ -42,7 +42,7 @@ public class CampusNews extends ListActivity {
 		
 		protected void onPostExecute(ArrayList<String> items) {
 			
-			setListAdapter(new ArrayAdapter<String>(getApplicationContext(),
+			setListAdapter(new ArrayAdapter<String>(getBaseContext(),
 	                android.R.layout.simple_list_item_1,
 	                items));
 		}
