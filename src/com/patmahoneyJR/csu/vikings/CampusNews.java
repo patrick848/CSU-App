@@ -30,8 +30,9 @@ public class CampusNews extends ListActivity {
 			ArrayList<String> items = new ArrayList<String>();
 			try {
 				Document doc = Jsoup.connect(URL).get();
-				for (Element e : doc.getElementsByTag("p")) {
-					items.add(e.text());
+				for (Element e : doc.getElementsByClass("copy")) {
+					if(e.getElementsByTag("a").text().trim().length() != 0)			
+						items.add(e.getElementsByTag("a").text());
 				}
 			} catch (Exception e) {		
 				Toast.makeText(getApplicationContext(), "Couldn't fetch articles, try again later.",
