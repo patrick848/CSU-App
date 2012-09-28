@@ -38,5 +38,7 @@
 	    bring you to the old Google Maps view of them.</string>
 	<string name="social_filler">Page of text with links to all of
 	     their social network accounts.</string>
+	<string name="view_411_on_map_button_text">View Campus 411 on map</string>
+	<string name="call_411">Call campus 411!</string>
     
 </resources>
