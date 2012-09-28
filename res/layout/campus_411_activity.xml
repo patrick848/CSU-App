@@ -26,19 +26,20 @@
         android:text="@string/four_one_one_mission" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/view_411_on_map_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:text="@string/view_411_on_map_button_text" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:text="Button" />
+        android:layout_below="@+id/view_411_on_map_button"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:text="@string/call_411" />
 
 </RelativeLayout>
