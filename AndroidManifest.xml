@@ -57,6 +57,10 @@
             android:name=".SocialNetwork"
             android:label="@string/social" >  
         </activity>
+        <activity 
+            android:name=".MapList"
+            android="@string/map_list_title" >
+        </activity>
     </application>
 
 </manifest>
