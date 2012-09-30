@@ -34,12 +34,12 @@
         android:text="@string/view_411_on_map_button_text" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/call_411_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/view_411_on_map_button"
         android:layout_centerHorizontal="true"
-        android:paddingTop="15dp"
+        android:layout_marginTop="15dp"
         android:text="@string/call_411" />
 
 </RelativeLayout>
