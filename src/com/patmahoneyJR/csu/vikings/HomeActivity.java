@@ -82,7 +82,7 @@ public class HomeActivity extends Activity implements OnClickListener {
 			break;
 			
 		case R.id.mapButton:
-			Intent map = new Intent(this, CampusMap.class);
+			Intent map = new Intent(this, MapList.class);
 			startActivity(map);
 			break;
 		
