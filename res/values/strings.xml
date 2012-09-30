@@ -40,5 +40,6 @@
 	     their social network accounts.</string>
 	<string name="view_411_on_map_button_text">View Campus 411 on map</string>
 	<string name="call_411">Call campus 411!</string>
+	<string name="map_list_title">CSU Buildings</string>
     
 </resources>
