@@ -14,10 +14,12 @@ public class CampusMap extends MapActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map_activity);
+        Bundle extras = getIntent().getExtras();
+        
         map = (MapView) findViewById(R.id.map);
         map.setBuiltInZoomControls(true);
-        map.getController().setCenter(getPoint(41.502217,-81.675411));
-        map.getController().setZoom(20);
+        map.getController().setCenter(getPoint(extras.getDouble("lat"), extras.getDouble("lon")));
+        map.getController().setZoom(19);
 	}
 
 	@Override
