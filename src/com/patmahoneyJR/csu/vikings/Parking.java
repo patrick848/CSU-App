@@ -34,7 +34,7 @@ public class Parking extends ListActivity {
 			mapIntent.putExtra("lat", 41.50542);
 			mapIntent.putExtra("lon", -81.676141);
 		}
-		else if(lots[position].equals("11")) {
+		else if(lots[position].equals("Lot 11")) {
 			mapIntent.putExtra("lat", 41.504847);
 			mapIntent.putExtra("lon", -81.675926);
 		}
