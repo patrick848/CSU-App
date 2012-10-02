@@ -59,7 +59,11 @@
         </activity>
         <activity 
             android:name=".MapList"
-            android="@string/map_list_title" >
+            android:label="@string/map_list_title" >
+        </activity>
+        <activity
+            android:name=".ParkingMap"
+            android:label="@string/parking_lots" >
         </activity>
     </application>
 
