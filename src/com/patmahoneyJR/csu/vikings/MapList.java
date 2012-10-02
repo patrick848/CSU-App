@@ -39,7 +39,7 @@ public class MapList extends ListActivity {
 	
 	public void onListItemClick(ListView parent, View v, 
 			int position, long id) {
-		Toast.makeText(this, ("at " + mapItems[position]), Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, mapItems[position], Toast.LENGTH_SHORT).show();
 		Intent mapIntent = new Intent(this, CampusMap.class);
 		
 		if(mapItems[position].equals("Art Building")) {
