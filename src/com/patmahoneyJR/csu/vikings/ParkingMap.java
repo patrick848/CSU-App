@@ -97,6 +97,7 @@ public class ParkingMap extends MapActivity {
         
         OverlayItem overlayItem22 = new OverlayItem(getPoint(41.502889, -81.679982), "Lot WG", null);
         overlay.addOverlay(overlayItem22);
+        
         mapOverlays.add(overlay);
         
 	}
