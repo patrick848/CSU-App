@@ -14,7 +14,7 @@ public class MapList extends ListActivity {
 	//Updated "Theater Arts Building" to "Art College" - Theater Arts Building doesn't exist
 	//and Art College Does (Middough Building)
 	String[] mapItems = { "AMC Annex", "Art College", "Business College",
-			"Campus Safety", "Chester Building", "Chester Building Annex",
+			"Campus 411", "Campus Safety", "Chester Building", "Chester Building Annex",
 			"Cole Center", "Euclid Commons", "Fenn Tower", 
 			"Health Sciences", "Heritage Hall",
 			"Julka Hall", "Keith Building", "Law Building", "Law Library",
@@ -61,6 +61,11 @@ public class MapList extends ListActivity {
 			mapIntent.putExtra("placeName", mapItems[position]);
 			mapIntent.putExtra("lat", 41.502194);
 			mapIntent.putExtra("lon", -81.679499);
+		}
+		else if(mapItems[position].equals("Campus 411")) {
+			mapIntent.putExtra("placeName", mapItems[position]);
+			mapIntent.putExtra("lat", 41.502777);
+			mapIntent.putExtra("lon", -81.674383);
 		}
 		else if(mapItems[position].equals("Campus Safety")) {
 			mapIntent.putExtra("placeName", mapItems[position]);
