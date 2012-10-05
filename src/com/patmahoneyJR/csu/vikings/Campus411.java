@@ -29,7 +29,9 @@ public class Campus411 extends Activity implements OnClickListener {
 		switch(v.getId()) {
 		
 		case R.id.view_411_on_map_button:
-			
+			Intent viewOnMap = new Intent(this, CampusMap.class);
+			viewOnMap.putExtra("lat", 41.502777);
+			viewOnMap.putExtra("lon", -81.674383);
 			break;
 		case R.id.call_411_button:
 			Intent call = new Intent(Intent.ACTION_DIAL);
