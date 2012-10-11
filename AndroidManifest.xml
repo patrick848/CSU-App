@@ -65,6 +65,10 @@
             android:name=".ParkingMap"
             android:label="@string/parking_lots" >
         </activity>
+        <activity
+            android:name=".CallCenter"
+            android:label="@string/call_center" >
+        </activity>
     </application>
 
 </manifest>
