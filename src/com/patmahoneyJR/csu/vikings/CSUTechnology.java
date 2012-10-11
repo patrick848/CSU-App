@@ -13,8 +13,6 @@ public class CSUTechnology extends ListActivity {
 			"General Computer Labs", "Mobile Campus",
 			"Mobile Email", "Password Reset", "Wireless" };
 	
-	String[] computerLabs = {"BU 23", "FT 103", "SH 128", "UR 39/40"};
-	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +32,10 @@ public class CSUTechnology extends ListActivity {
 			Intent connectionLounges = new Intent(this, ConnectionLounges.class);
 			startActivity(connectionLounges);
 		}
-			
+		else if(techItems[position].equals("General Computer Labs")) {
+			Intent generalComputerLabs = new Intent(this, GeneralComputerLabs.class);
+			startActivity(generalComputerLabs);
+		}
 		
 	}
 }
