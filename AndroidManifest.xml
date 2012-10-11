@@ -81,6 +81,18 @@
             android:name=".BusinessComputerLab"
             android:label="@string/business_computer_lab" >
         </activity>
+        <activity
+            android:name=".FennTowerComputerLab"
+            android:label="@string/fenn_tower_computer_lab" >
+        </activity>
+        <activity
+            android:name=".StilwellHallComputerLab"
+            android:label="@string/stilwell_hall_computer_lab" >
+        </activity>
+        <activity
+            android:name=".UrbanAffairsComputerLab"
+            android:label="@string/urban_affairs_computer_lab" >
+        </activity>
     </application>
 
 </manifest>
