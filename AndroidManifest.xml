@@ -73,6 +73,14 @@
             android:name=".ConnectionLounges"
             android:label="@string/connection_lounges" >
         </activity>
+        <activity
+            android:name=".GeneralComputerLabs"
+            android:label="@string/general_computer_labs" >
+        </activity>
+        <activity
+            android:name=".BusinessComputerLab"
+            android:label="@string/business_computer_lab" >
+        </activity>
     </application>
 
 </manifest>
