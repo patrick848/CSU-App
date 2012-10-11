@@ -23,27 +23,8 @@
 		served, resolve issues in support of educational goals,
 		and empower students to manage their academic life.
 	</string>
-	<string name="map_filler">This is just a large, ugly ListView
-		of all of the unique places on campus. Clicking on one pulls
-		up a crappy old Google Maps API view. I WANT IT BEAUTIFUL!
-	</string>
-	<string name="news_filler">Again another ugly ListView, but it\'s parsed
-		from somewhere online which is cool, but clicking an article
-		opens up the browser to it, instead of bringing the data
-		to you.
-	</string>
 	<string name="fight_filler">The lyrics to the "The Pride of Cleveland"
 		and a play/pause button for the fight song to be played.
-	</string>
-	<string name="tech_filler">ListView of tech related things,
-		and some buttons withing those things.
-	</string>
-	<string name="dining_filler">ListView of dining locations. All
-		items bring you to websites of places, which isn\'t a
-		terrible idea.
-	</string>
-	<string name="parking_filler">ListView of parking garages, when clicked
-		bring you to the old Google Maps view of them.
 	</string>
 	<string name="social_filler">Page of text with links to all of
 		their social network accounts.
@@ -61,5 +42,18 @@
 	<string name="email_call_center">Email the Call Center</string>
 	<string name="call_call_center">Call the Call Center</string>
 	<string name="call_center">CSU Call Center</string>
+	<string name="connection_lounges">Campus Connection Lounges</string>
+	<string name="connection_lounges_text">Casual computing in a relaxed
+	    environment.  Your technology fees at work!
+	    Two locations to serve you better.
+	</string>
+	<string name="connection_lounges_hours">Hours:
+	    \nMonday - Thursday: 7:30 AM to 10:00 PM
+	    \nFriday &amp; Saturday: 7:30 AM to 5:00 PM
+	    \nSunday: Closed
+	</string>
+	<string name="main_classroom_lounge">Main Classroom Lounge</string>
+	<string name="student_center_lounge">Student Center Lounge</string>
+	    
 
 </resources>
