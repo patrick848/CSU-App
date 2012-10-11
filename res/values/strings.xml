@@ -14,20 +14,27 @@
 	<string name="social">Social Network</string>
 	<string name="parking">Parking</string>
 	<string name="four_one_one_about">Campus 411 is a one-stop service center
-		that can assist you with any questions regarding your admission,
-		academic record, financial aid, registration, and your student
+		that can
+		assist you with any questions regarding your admission,
+		academic
+		record, financial aid, registration, and your student
 		account.
 	</string>
 	<string name="four_one_one_mission">Our mission is to provide a centralized
-		location where the University community is effectively and efficiently
-		served, resolve issues in support of educational goals,
-		and empower students to manage their academic life.
+		location
+		where the University community is effectively and efficiently
+		served,
+		resolve issues in support of educational goals,
+		and empower students to
+		manage their academic life.
 	</string>
 	<string name="fight_filler">The lyrics to the "The Pride of Cleveland"
-		and a play/pause button for the fight song to be played.
+		and a
+		play/pause button for the fight song to be played.
 	</string>
 	<string name="social_filler">Page of text with links to all of
-		their social network accounts.
+		their social
+		network accounts.
 	</string>
 	<string name="view_411_on_map_button_text">View Campus 411 on map</string>
 	<string name="call_411">Call campus 411!</string>
@@ -35,25 +42,35 @@
 	<string name="parking_lots">Parking Lots</string>
 	<string name="call_center1">The Call Center is your first stop for
 		troubleshooting or to answer computer related questions. Call us with
-		your questions to request service!</string>
+		your questions to request service!
+	</string>
 	<string name="call_center2">If you have an issue with a computer - either
 		hardware or software - call the Call Center. If we can\'t help you
-		immediately, we will have someone contact you.</string>
+		immediately, we will have someone contact you.
+	</string>
 	<string name="email_call_center">Email the Call Center</string>
 	<string name="call_call_center">Call the Call Center</string>
 	<string name="call_center">CSU Call Center</string>
 	<string name="connection_lounges">Campus Connection Lounges</string>
 	<string name="connection_lounges_text">Casual computing in a relaxed
-	    environment.  Your technology fees at work!
-	    Two locations to serve you better.
+		environment. Your technology fees at work!
+		Two locations to serve you better.
 	</string>
 	<string name="connection_lounges_hours">Hours:
-	    \nMonday - Thursday: 7:30 AM to 10:00 PM
-	    \nFriday &amp; Saturday: 7:30 AM to 5:00 PM
-	    \nSunday: Closed
+		\nMonday - Thursday: 7:30 AM to 10:00 PM
+		\nFriday &amp; Saturday: 7:30 AM to 5:00 PM
+		\nSunday: Closed
 	</string>
 	<string name="main_classroom_lounge">Main Classroom Lounge</string>
 	<string name="student_center_lounge">Student Center Lounge</string>
-	    
+	<string name="general_computer_labs">General Computer Labs</string>
+	<string name="business_computer_lab">Business College Computer Lab</string>
+	<string name="business_computer_lab_text">Business College - BU 23</string>
+	<string name="business_computer_lab_hours">Hours:
+	    \nMonday - Thursday: 7:30 AM to 10:00 PM
+	    \nFriday: 7:30 AM to 9:30 PM
+	    \nSaturday &amp; Sunday: 9:00 AM to 5:30 PM
+	</string>
+
 
 </resources>
