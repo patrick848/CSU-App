@@ -28,6 +28,19 @@ public class GeneralComputerLabs extends ListActivity {
 			Intent businessLab = new Intent(this, BusinessComputerLab.class);
 			startActivity(businessLab);
 		}
+		else if(labs[position].equals("Fenn Tower Lab")) {
+			Intent fennLab = new Intent(this, FennTowerComputerLab.class);
+			startActivity(fennLab);
+		}
+		else if(labs[position].equals("Stilwell Hall Lab")) {
+			Intent stilwellLab = new Intent(this, StilwellHallComputerLab.class);
+			startActivity(stilwellLab);
+		}
+		else if(labs[position].equals("Urban Affairs Lab")) {
+			Intent urbanLab = new Intent(this, UrbanAffairsComputerLab.class);
+			startActivity(urbanLab);
+		}
+		
 	}
 
 }
