@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class CSUTechnology extends ListActivity {
 	
-	String[] techItems = {"Call Center", "Connection Center",
+	String[] techItems = {"Call Center", "Connection Lounges",
 			"General Computer Labs", "Mobile Campus",
 			"Mobile Email", "Password Reset", "Wireless" };
 	
@@ -29,6 +29,10 @@ public class CSUTechnology extends ListActivity {
 		if(techItems[position].equals("Call Center")) {
 			Intent callCenter = new Intent(this, CallCenter.class);
 			startActivity(callCenter);
+		}
+		else if(techItems[position].equals("Connection Lounges")) {
+			Intent connectionLounges = new Intent(this, ConnectionLounges.class);
+			startActivity(connectionLounges);
 		}
 			
 		
