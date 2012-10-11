@@ -71,6 +71,24 @@
 	    \nFriday: 7:30 AM to 9:30 PM
 	    \nSaturday &amp; Sunday: 9:00 AM to 5:30 PM
 	</string>
-
-
+	<string name="fenn_tower_computer_lab">Fenn Tower Computer Lab</string>
+	<string name="fenn_towet_computer_lab_text">Fenn Tower - FT 103</string>
+	<string name="fenn_tower_computer_lab_hours">Hours:
+	    \nAll week: 8:00 AM to 8:00 PM
+	</string>
+	<string name="stilwell_hall_computer_lab">Stilwell Hall Computer Lab</string>
+	<string name="stilwell_hall_computer_lab_text">Stilwell Hall - SH 128</string>
+	<string name="stilwell_hall_computer_lab_hours">Hours:
+	    \nMonday - Thursday: 7:30 AM to 9:30 PM
+	    \nFriday: 7:30 AM to 5:30 PM
+	    \nSaturday &amp; Sunday: Closed
+	</string>
+	<string name="urban_affairs_computer_lab">Urban Affairs Computer Lab</string>
+	<string name="urban_affairs_computer_lab_text">Urban Affairs Building - UR 39/40</string>
+	<string name="urban_affairs_computer_lab_hours">Hours:
+	    \nMonday - Thursday: 8:00 AM to 10:00 PM
+	    \nFriday &amp; Saturday: 8:00 AM to 6:00 PM
+	    \nSunday: Closed
+	</string>
+	
 </resources>
