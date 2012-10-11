@@ -1,46 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-    <string name="app_name">CSU Vikings</string>
-    <string name="menu_about">About</string>
-    <string name="title_activity_home">CSU Vikings</string>
-    <string name="calendar">Academic Calendar</string>
-    <string name="campus_411">Campus 411</string>
-    <string name="map">Campus Map</string>
-    <string name="news">Campus News</string>
-    <string name="fight_song">CSU Fight Song</string>
-    <string name="tech">CSU Technology</string>
-    <string name="dining">Dining Locations</string>
-    <string name="social">Social Network</string>
-    <string name="parking">Parking</string>
-    <string name="four_one_one_about">Campus 411 is a one-stop service center
-        that can assist you with any questions regarding your admission,
-        academic record, financial aid, registration, and your student
-        account.</string>
-    <string name="four_one_one_mission">Our mission is to provide a centralized
-        location where the University community is effectively and efficiently
-        served, resolve issues in support of educational goals, 
-        and empower students to manage their academic life.</string>
-    <string name="map_filler">This is just a large, ugly ListView
-        of all of the unique places on campus.  Clicking on one pulls
-        up a crappy old Google Maps API view.  I WANT IT BEAUTIFUL!</string>
-    <string name="news_filler">Again another ugly ListView, but it\'s parsed 
-        from somewhere online which is cool, but clicking an article
-        opens up the browser to it, instead of bringing the data
-        to you.</string>
-    <string name="fight_filler">The lyrics to the "The Pride of Cleveland"
-        and a play/pause button for the fight song to be played.</string>
-    <string name="tech_filler">ListView of tech related things, 
-        and some buttons withing those things.</string>
-    <string name="dining_filler">ListView of dining locations.  All 
-        items bring you to websites of places, which isn\'t a 
-        terrible idea.</string>
-	<string name="parking_filler">ListView of parking garages, when clicked 
-	    bring you to the old Google Maps view of them.</string>
+	<string name="app_name">CSU Vikings</string>
+	<string name="menu_about">About</string>
+	<string name="title_activity_home">CSU Vikings</string>
+	<string name="calendar">Academic Calendar</string>
+	<string name="campus_411">Campus 411</string>
+	<string name="map">Campus Map</string>
+	<string name="news">Campus News</string>
+	<string name="fight_song">CSU Fight Song</string>
+	<string name="tech">CSU Technology</string>
+	<string name="dining">Dining Locations</string>
+	<string name="social">Social Network</string>
+	<string name="parking">Parking</string>
+	<string name="four_one_one_about">Campus 411 is a one-stop service center
+		that can assist you with any questions regarding your admission,
+		academic record, financial aid, registration, and your student
+		account.
+	</string>
+	<string name="four_one_one_mission">Our mission is to provide a centralized
+		location where the University community is effectively and efficiently
+		served, resolve issues in support of educational goals,
+		and empower students to manage their academic life.
+	</string>
+	<string name="map_filler">This is just a large, ugly ListView
+		of all of the unique places on campus. Clicking on one pulls
+		up a crappy old Google Maps API view. I WANT IT BEAUTIFUL!
+	</string>
+	<string name="news_filler">Again another ugly ListView, but it\'s parsed
+		from somewhere online which is cool, but clicking an article
+		opens up the browser to it, instead of bringing the data
+		to you.
+	</string>
+	<string name="fight_filler">The lyrics to the "The Pride of Cleveland"
+		and a play/pause button for the fight song to be played.
+	</string>
+	<string name="tech_filler">ListView of tech related things,
+		and some buttons withing those things.
+	</string>
+	<string name="dining_filler">ListView of dining locations. All
+		items bring you to websites of places, which isn\'t a
+		terrible idea.
+	</string>
+	<string name="parking_filler">ListView of parking garages, when clicked
+		bring you to the old Google Maps view of them.
+	</string>
 	<string name="social_filler">Page of text with links to all of
-	     their social network accounts.</string>
+		their social network accounts.
+	</string>
 	<string name="view_411_on_map_button_text">View Campus 411 on map</string>
 	<string name="call_411">Call campus 411!</string>
 	<string name="map_list_title">CSU Buildings</string>
 	<string name="parking_lots">Parking Lots</string>
-    
+	<string name="call_center1">The Call Center is your first stop for
+		troubleshooting or to answer computer related questions. Call us with
+		your questions to request service!</string>
+	<string name="call_center2">If you have an issue with a computer - either
+		hardware or software - call the Call Center. If we can\'t help you
+		immediately, we will have someone contact you.</string>
+	<string name="email_call_center">Email the Call Center</string>
+	<string name="call_call_center">Call the Call Center</string>
+	<string name="call_center">CSU Call Center</string>
+
 </resources>
