@@ -36,6 +36,10 @@ public class CSUTechnology extends ListActivity {
 			Intent generalComputerLabs = new Intent(this, GeneralComputerLabs.class);
 			startActivity(generalComputerLabs);
 		}
+		else if(techItems[position].equals("Mobile Campus")) {
+			Intent mobileCampus = new Intent(this, MobileCampus.class);
+			startActivity(mobileCampus);
+		}
 		
 	}
 }
