@@ -53,7 +53,8 @@
 	<string name="call_center">CSU Call Center</string>
 	<string name="connection_lounges">Campus Connection Lounges</string>
 	<string name="connection_lounges_text">Casual computing in a relaxed
-		environment. Your technology fees at work!
+		environment. Your
+		technology fees at work!
 		Two locations to serve you better.
 	</string>
 	<string name="connection_lounges_hours">Hours:
@@ -67,28 +68,42 @@
 	<string name="business_computer_lab">Business College Computer Lab</string>
 	<string name="business_computer_lab_text">Business College - BU 23</string>
 	<string name="business_computer_lab_hours">Hours:
-	    \nMonday - Thursday: 7:30 AM to 10:00 PM
-	    \nFriday: 7:30 AM to 9:30 PM
-	    \nSaturday &amp; Sunday: 9:00 AM to 5:30 PM
+		\nMonday - Thursday: 7:30 AM to 10:00 PM
+		\nFriday: 7:30 AM to 9:30 PM
+		\nSaturday &amp; Sunday: 9:00 AM to 5:30 PM
 	</string>
 	<string name="fenn_tower_computer_lab">Fenn Tower Computer Lab</string>
 	<string name="fenn_towet_computer_lab_text">Fenn Tower - FT 103</string>
 	<string name="fenn_tower_computer_lab_hours">Hours:
-	    \nAll week: 8:00 AM to 8:00 PM
+		\nAll week: 8:00 AM to 8:00 PM
 	</string>
 	<string name="stilwell_hall_computer_lab">Stilwell Hall Computer Lab</string>
 	<string name="stilwell_hall_computer_lab_text">Stilwell Hall - SH 128</string>
 	<string name="stilwell_hall_computer_lab_hours">Hours:
-	    \nMonday - Thursday: 7:30 AM to 9:30 PM
-	    \nFriday: 7:30 AM to 5:30 PM
-	    \nSaturday &amp; Sunday: Closed
+		\nMonday - Thursday: 7:30 AM to 9:30 PM
+		\nFriday: 7:30 AM to 5:30 PM
+		\nSaturday &amp; Sunday: Closed
 	</string>
 	<string name="urban_affairs_computer_lab">Urban Affairs Computer Lab</string>
 	<string name="urban_affairs_computer_lab_text">Urban Affairs Building - UR 39/40</string>
 	<string name="urban_affairs_computer_lab_hours">Hours:
-	    \nMonday - Thursday: 8:00 AM to 10:00 PM
-	    \nFriday &amp; Saturday: 8:00 AM to 6:00 PM
-	    \nSunday: Closed
+		\nMonday - Thursday: 8:00 AM to 10:00 PM
+		\nFriday &amp; Saturday: 8:00 AM to 6:00 PM
+		\nSunday: Closed
 	</string>
-	
+	<string name="mobile_campus">Mobile Campus</string>
+	<string name="mobile_campus_text">Currently registered students of Cleveland State
+		University may check out a laptop computer or an iPad for on-campus
+		use.  Over 300 laptops and 40 iPads are available on a
+		first-come/first-served basis (reservations are not
+		accepted).\n\nLaptops and iPads may be borrowed for a 5 hour period of
+		time or until one hour before closing, which ever is shorter.
+	</string>
+	<string name="mobile_campus_hours">Hours:
+	    \nMonday - Thursday: 7:30 AM to 10:00 PM
+	    \nFriday: 7:30 AM to 6:00 PM
+	    \nSaturday: 8:00 AM to 5:00 PM
+	    \nSunday: Closed
+	 </string>
+
 </resources>
