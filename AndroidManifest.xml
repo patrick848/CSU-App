@@ -93,6 +93,10 @@
             android:name=".UrbanAffairsComputerLab"
             android:label="@string/urban_affairs_computer_lab" >
         </activity>
+        <activity
+            android:name=".MobileCampus"
+            android:label="@string/mobile_campus" >
+        </activity>
     </application>
 
 </manifest>
