@@ -97,6 +97,10 @@
             android:name=".MobileCampus"
             android:label="@string/mobile_campus" >
         </activity>
+        <activity
+            android:name=".MobileEmail"
+            android:label="@string/mobile_email" >
+        </activity>
     </application>
 
 </manifest>
