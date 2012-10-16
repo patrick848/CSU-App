@@ -13,6 +13,7 @@ public class MobileEmail extends Activity {
         
         WebView webview = (WebView) findViewById(R.id.webview);
         webview.loadUrl("file:///android_asset/mobile_email.html");
+        
 	}
 	
 }
