@@ -106,5 +106,6 @@
 	    \nSunday: Closed
 	 </string>
 	<string name="mobile_email">Mobile Email</string>
+	<string name="reset_password">Password Reset</string>
 
 </resources>
