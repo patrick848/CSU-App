@@ -20,3 +20,6 @@ local.properties
 .classpath
 .project
 .settings
+
+#Random OSX files
+.DS_Store
