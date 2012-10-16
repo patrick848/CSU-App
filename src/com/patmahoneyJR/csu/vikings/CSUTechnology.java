@@ -11,7 +11,7 @@ public class CSUTechnology extends ListActivity {
 	
 	String[] techItems = {"Call Center", "Connection Lounges",
 			"General Computer Labs", "Mobile Campus",
-			"Mobile Email", "Password Reset", "Wireless" };
+			"Mobile Email", "Reset Password", "Wireless" };
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,10 @@ public class CSUTechnology extends ListActivity {
 		else if(techItems[position].equals("Mobile Email")) {
 			Intent mobileEmail = new Intent(this, MobileEmail.class);
 			startActivity(mobileEmail);
+		}
+		else if(techItems[position].equals("Reset Password")) {
+			Intent resetPassword = new Intent(this, ResetPassword.class);
+			startActivity(resetPassword);
 		}
 		
 	}
