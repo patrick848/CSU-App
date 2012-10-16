@@ -105,5 +105,6 @@
 	    \nSaturday: 8:00 AM to 5:00 PM
 	    \nSunday: Closed
 	 </string>
+	<string name="mobile_email">Mobile Email</string>
 
 </resources>
