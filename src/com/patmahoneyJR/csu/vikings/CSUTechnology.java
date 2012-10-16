@@ -40,6 +40,10 @@ public class CSUTechnology extends ListActivity {
 			Intent mobileCampus = new Intent(this, MobileCampus.class);
 			startActivity(mobileCampus);
 		}
+		else if(techItems[position].equals("Mobile Email")) {
+			Intent mobileEmail = new Intent(this, MobileEmail.class);
+			startActivity(mobileEmail);
+		}
 		
 	}
 }
