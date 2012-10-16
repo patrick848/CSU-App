@@ -54,6 +54,5 @@ public class CSUTechnology extends ListActivity {
 			Intent wireless = new Intent(Intent.ACTION_VIEW, wirelessUri);
 			startActivity(wireless);
 		}
-		
 	}
 }
