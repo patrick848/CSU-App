@@ -2,6 +2,7 @@ package com.patmahoneyJR.csu.vikings;
 
 import android.app.ListActivity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -47,6 +48,11 @@ public class CSUTechnology extends ListActivity {
 		else if(techItems[position].equals("Reset Password")) {
 			Intent resetPassword = new Intent(this, ResetPassword.class);
 			startActivity(resetPassword);
+		}
+		else if(techItems[position].equals("Wireless")) {
+			Uri wirelessUri = Uri.parse("http://www.csuohio.edu/offices/ist/getconnected/wireless.html");
+			Intent wireless = new Intent(Intent.ACTION_VIEW, wirelessUri);
+			startActivity(wireless);
 		}
 		
 	}
