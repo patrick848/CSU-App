@@ -101,6 +101,10 @@
             android:name=".MobileEmail"
             android:label="@string/mobile_email" >
         </activity>
+        <activity 
+            android:name=".ResetPassword"
+            android:label="@string/reset_password" >
+        </activity>
     </application>
 
 </manifest>
