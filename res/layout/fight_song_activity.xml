@@ -10,8 +10,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/fight_filler"
+        android:padding="15dp"
+        android:text="@string/fight_song_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="@string/fight_song_text"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/play_song"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fight_song_play_button"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/stop_song"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fight_song_stop_button"
+        android:textSize="20sp"
+        android:visibility="invisible" />
 
 </RelativeLayout>
