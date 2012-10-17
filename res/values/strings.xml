@@ -70,7 +70,8 @@
 	<string name="business_computer_lab_hours">Hours:
 		\nMonday - Thursday: 7:30 AM to 10:00 PM
 		\nFriday: 7:30 AM to 9:30 PM
-		\nSaturday &amp; Sunday: 9:00 AM to 5:30 PM
+		\nSaturday &amp; Sunday: 9:00 AM to 5:30
+		PM
 	</string>
 	<string name="fenn_tower_computer_lab">Fenn Tower Computer Lab</string>
 	<string name="fenn_tower_computer_lab_text">Fenn Tower - FT 103</string>
@@ -94,18 +95,30 @@
 	<string name="mobile_campus">Mobile Campus</string>
 	<string name="mobile_campus_text">Currently registered students of Cleveland State
 		University may check out a laptop computer or an iPad for on-campus
-		use.  Over 300 laptops and 40 iPads are available on a
+		use. Over 300 laptops and 40 iPads are available on a
 		first-come/first-served basis (reservations are not
 		accepted).\n\nLaptops and iPads may be borrowed for a 5 hour period of
 		time or until one hour before closing, which ever is shorter.
 	</string>
 	<string name="mobile_campus_hours">Hours:
-	    \nMonday - Thursday: 7:30 AM to 10:00 PM
-	    \nFriday: 7:30 AM to 6:00 PM
-	    \nSaturday: 8:00 AM to 5:00 PM
-	    \nSunday: Closed
-	 </string>
+		\nMonday - Thursday: 7:30 AM to 10:00 PM
+		\nFriday: 7:30 AM to 6:00 PM
+		\nSaturday: 8:00 AM to 5:00 PM
+		\nSunday: Closed
+	</string>
 	<string name="mobile_email">Mobile Email</string>
 	<string name="reset_password">Password Reset</string>
+	<string name="fight_song_title">The Pride of Cleveland</string>
+	<string name="fight_song_text">O hail the Green and White,
+		\nfor our colors we shall fight!
+		\nTo battle, Vikings all,
+		\nWe\'ll sound the Viking trumpet call!
+		\n
+		\nWe always will defend
+		\nThe Pride of Cleveland faithfully;
+		\nFor Cleveland State we\'ll fight on to a victory!
+	</string>
+	<string name="fight_song_play_button">Play the Fight Song!</string>
+	<string name="fight_song_stop_button">Stop</string>
 
 </resources>
