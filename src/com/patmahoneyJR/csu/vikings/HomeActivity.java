@@ -102,7 +102,7 @@ public class HomeActivity extends Activity implements OnClickListener {
 			break;
 			
 		case R.id.diningButton:
-			Intent dining = new Intent(this, DiningLocations.class);
+			Intent dining = new Intent(this, Dining.class);
 			startActivity(dining);
 			break;
 			
