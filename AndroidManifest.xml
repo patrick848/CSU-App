@@ -42,7 +42,7 @@
             android:label="@string/tech" >
         </activity>
         <activity 
-            android:name=".DiningLocations"
+            android:name=".Dining"
             android:label="@string/dining" >
         </activity>
         <activity 
