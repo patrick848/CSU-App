@@ -13,25 +13,12 @@ public class MapList extends ListActivity {
 	//Removed East Center: No longer exists...
 	//Updated "Theater Arts Building" to "Art College" - Theater Arts Building doesn't exist
 	//and Art College Does (Middough Building)
-	String[] mapItems = { "AMC Annex", "Art College", "Business College",
-			"Campus 411", "Campus Safety", "Chester Building", "Chester Building Annex",
-			"Cole Center", "Euclid Commons", "Fenn Tower", 
-			"Health Sciences", "Heritage Hall",
-			"Julka Hall", "Keith Building", "Law Building", "Law Library",
-			"MAGNET Building", "Main Classroom", "Mather Mansion",
-			"Michael Schwartz Library", "Music & Communication",
-			"Parker Hannifin Administration Center",
-			"Parker Hannifin Hall", "Physical Education",
-			"Plant Annex", "Plant Services", "Recreation Center",
-			"Rhodes Tower", "Rhodes West", "Science and Research",
-			"Science Building", "Stilwell Hall", "Student Center",
-			"Urban Affairs Building",
-			"Viking Hall", "West Center", "Wolstein Center",
-			"Wolstein Center Pavillion & Banquet Center" };
+	String[] mapItems;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mapItems = getResources().getStringArray(R.array.csu_buildings);
         setListAdapter(new ArrayAdapter<String>(this,
         		R.layout.simple_list_item_1,
         		mapItems));
@@ -152,15 +139,15 @@ public class MapList extends ListActivity {
 			mapIntent.putExtra("lat", 41.502403);
 			mapIntent.putExtra("lon", -81.676645);
 		}
-		else if(mapItems[position].equals("Parker Hannifin Administration Center")) {
-			mapIntent.putExtra("placeName", mapItems[position]);
-			mapIntent.putExtra("lat", 41.501625);
-			mapIntent.putExtra("lon", -81.672771);
-		}
 		else if(mapItems[position].equals("Parker Hannifin Hall")) {
 			mapIntent.putExtra("placeName", mapItems[position]);
 			mapIntent.putExtra("lat", 41.501589);
 			mapIntent.putExtra("lon", -81.673316);
+		}
+		else if(mapItems[position].equals("Parker Hannifin Administration Center")) {
+			mapIntent.putExtra("placeName", mapItems[position]);
+			mapIntent.putExtra("lat", 41.501625);
+			mapIntent.putExtra("lon", -81.672771);
 		}
 		else if(mapItems[position].equals("Physical Education")) {
 			mapIntent.putExtra("placeName", mapItems[position]);
