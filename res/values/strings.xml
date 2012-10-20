@@ -163,5 +163,16 @@
 	    <item>Wolstein Center</item>
 	    <item>Wolstein Center Pavillion &amp; Banquet Center</item>
 	</string-array>
+	
+	<string-array 
+	    name="csu_technology" >
+	    <item>Call Center</item>
+	    <item>Connection Lounges</item>
+	    <item>General Computer Labs</item>
+	    <item>Mobile Campus</item>
+	    <item>Mobile Email</item>
+	    <item>Reset Password</item>
+	    <item>Wireless</item>
+	</string-array>
 
 </resources>
