@@ -10,13 +10,12 @@ import android.widget.ListView;
 
 public class CSUTechnology extends ListActivity {
 	
-	String[] techItems = {"Call Center", "Connection Lounges",
-			"General Computer Labs", "Mobile Campus",
-			"Mobile Email", "Reset Password", "Wireless" };
+	String[] techItems;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        techItems = getResources().getStringArray(R.array.csu_technology);
         setListAdapter(new ArrayAdapter<String>(this,
         		R.layout.simple_list_item_1,
         		techItems));
