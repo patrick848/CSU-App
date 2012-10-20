@@ -174,5 +174,13 @@
 	    <item>Reset Password</item>
 	    <item>Wireless</item>
 	</string-array>
+	
+	<string-array 
+	    name="general_computer_labs" >
+	    <item>Business Lab</item>
+	    <item>Fenn Tower Lab</item>
+	    <item>Stilwell Hall Lab</item>
+	    <item>Urban Affairs Lab</item>
+	</string-array>
 
 </resources>
