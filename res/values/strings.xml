@@ -182,5 +182,31 @@
 	    <item>Stilwell Hall Lab</item>
 	    <item>Urban Affairs Lab</item>
 	</string-array>
+	
+	<string-array 
+	    name="parking" >
+	    <item>Lot 10</item>
+	    <item>Lot 11</item>
+	    <item>Lot 20</item>
+	    <item>Lot 21</item>
+	    <item>Lot 22</item>
+	    <item>Lot 40</item>
+	    <item>Lot 50</item>
+	    <item>Lot 51</item>
+	    <item>Lot 54</item>
+	    <item>Lot 57</item>
+	    <item>Lot 61</item>
+	    <item>Lot 62</item>
+	    <item>Lot 80</item>
+	    <item>Lot 90</item>
+	    <item>Lot CG</item>
+	    <item>Lot EG</item>
+	    <item>Lot MG</item>
+	    <item>Lot PG</item>
+	    <item>Lot SG</item>
+	    <item>Lot RG</item>
+	    <item>Lot UG</item>
+	    <item>Lot WG</item>
+	</string-array>
 
 </resources>
