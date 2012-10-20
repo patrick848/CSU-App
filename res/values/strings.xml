@@ -120,5 +120,48 @@
 	</string>
 	<string name="fight_song_play_button">Play the Fight Song!</string>
 	<string name="fight_song_stop_button">Stop</string>
+	
+	<string-array 
+	    name="csu_buildings" >
+	    <item>AMC Annex</item>
+	    <item>AMC Annex</item>
+	    <item>Art College</item>
+	    <item>Business College</item>
+	    <item>Campus 411</item>
+	    <item>Campus Safety</item>
+	    <item>Chester Building</item>
+	    <item>Chester Building Annex</item>
+	    <item>Cole Center</item>
+	    <item>Euclid Commons</item>
+	    <item>Fenn Tower</item>
+	    <item>Health Sciences</item>
+	    <item>Heritage Hall</item>
+	    <item>Julka Hall</item>
+	    <item>Keith Building</item>
+	    <item>Law Building</item>
+	    <item>Law Library</item>
+	    <item>MAGNET Building</item>
+	    <item>Main Classroom</item>
+	    <item>Mather Mansion</item>
+	    <item>Michael Schwartz Library</item>
+	    <item>Music &amp; Communication</item>
+	    <item>Parker Hannifin Hall</item>
+	    <item>Parker Hannifin Administration Center</item>
+	    <item>Physical Education</item>
+	    <item>Plant Annex</item>
+	    <item>Plant Services</item>
+	    <item>Recreation Center</item>
+	    <item>Rhodes Tower</item>
+	    <item>Rhodes West</item>
+	    <item>Science and Research</item>
+	    <item>Science Building</item>
+	    <item>Stilwell Hall</item>
+	    <item>Student Center</item>
+	    <item>Urban Affairs Building</item>
+	    <item>Viking Hall</item>
+	    <item>West Center</item>
+	    <item>Wolstein Center</item>
+	    <item>Wolstein Center Pavillion &amp; Banquet Center</item>
+	</string-array>
 
 </resources>
