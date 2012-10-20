@@ -9,12 +9,12 @@ import android.widget.ListView;
 
 public class GeneralComputerLabs extends ListActivity {
 	
-	String[] labs = {"Business Lab", "Fenn Tower Lab",
-			"Stilwell Hall Lab", "Urban Affairs Lab" };
+	String[] labs;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        labs = getResources().getStringArray(R.array.general_computer_labs);
         setListAdapter(new ArrayAdapter<String>(this,
         		R.layout.simple_list_item_1,
         		labs));
