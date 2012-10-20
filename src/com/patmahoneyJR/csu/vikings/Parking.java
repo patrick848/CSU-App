@@ -10,15 +10,12 @@ import android.widget.Toast;
 
 public class Parking extends ListActivity {
 	
-	private String[] lots = {"Lot 10", "Lot 11", "Lot 20", "Lot 21",
-			"Lot 22", "Lot 40", "Lot 50", "Lot 51", "Lot 54",
-			"Lot 57", "Lot 61", "Lot 62", "Lot 80", "Lot 90",
-			"Lot CG", "Lot EG", "Lot MG", "Lot PG", "Lot SG",
-			"Lot RG", "Lot UG", "Lot WG"};
+	private String[] lots;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        lots = getResources().getStringArray(R.array.parking);
         setListAdapter(new ArrayAdapter<String>(this,
         		R.layout.simple_list_item_1,
         		lots));
