@@ -120,6 +120,8 @@
 	</string>
 	<string name="fight_song_play_button">Play the Fight Song!</string>
 	<string name="fight_song_stop_button">Stop</string>
+	<string name="student_center_first_label">Student Center First Floor</string>
+	<string name="student_center_second_label">Student Center Second Floor</string>
 	
 	<string-array 
 	    name="csu_buildings" >
@@ -207,6 +209,23 @@
 	    <item>Lot RG</item>
 	    <item>Lot UG</item>
 	    <item>Lot WG</item>
+	</string-array>
+	
+	<string-array
+	    name="dining" >
+	    <item>Atrium Cafe</item>
+	    <item>Au Bon Pain</item>
+	    <item>Bar UNO</item>
+	    <item>Chop\'d &amp; Wrap\'d</item>
+	    <item>Fenn Shoppe</item>
+	    <item>GrillNation</item>
+	    <item>Outtakes</item>
+	    <item>Papa John\'s Pizza</item>
+		<item>Quizno\'s</item>
+		<item>The Link</item>
+		<item>The Strip</item>
+		<item>Viking Marketplace</item>
+		<item>Wheat Street Deli</item>
 	</string-array>
 
 </resources>
