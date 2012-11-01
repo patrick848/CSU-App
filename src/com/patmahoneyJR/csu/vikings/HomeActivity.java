@@ -102,9 +102,14 @@ public class HomeActivity extends Activity implements OnClickListener {
 			break;
 			
 		case R.id.diningButton:
-			Intent dining = new Intent(this, Dining.class);
+			Uri diningUrl = Uri.parse("http://www.dineoncampus.com/csu/show.cfm?cmd=menus2");
+			Intent dining = new Intent(Intent.ACTION_VIEW, diningUrl);
 			startActivity(dining);
 			break;
+			
+//			Intent dining = new Intent(this, Dining.class);
+//			startActivity(dining);
+//			break;
 			
 		case R.id.parkingButton:
 			Intent parking = new Intent(this, Parking.class);
