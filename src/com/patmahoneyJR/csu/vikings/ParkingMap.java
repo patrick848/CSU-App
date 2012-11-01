@@ -29,7 +29,7 @@ public class ParkingMap extends MapActivity {
         map.setBuiltInZoomControls(true);
         map.getController().setCenter(getPoint(extras.getDouble("lat"), extras.getDouble("lon")));
         map.getController().setZoom(19);
-
+        map.setSatellite(false);
         
         List<Overlay> mapOverlays = map.getOverlays();
         Drawable marker = getResources().getDrawable(R.drawable.androidmarker);
@@ -111,6 +111,12 @@ public class ParkingMap extends MapActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);
 		mInflater = getMenuInflater();
+		return true;
+	}
+	
+	@Override
+	public boolean onPrepareOptionsMenu (Menu menu) {
+		menu.clear();
 		if(! map.isSatellite())
 			mInflater.inflate(R.menu.map_map_menu, menu);
 		else
