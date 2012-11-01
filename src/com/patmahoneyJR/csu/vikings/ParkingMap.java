@@ -4,6 +4,9 @@ import java.util.List;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
@@ -14,6 +17,7 @@ import com.google.android.maps.OverlayItem;
 public class ParkingMap extends MapActivity {
 	
 	private MapView map;
+	private MenuInflater mInflater;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,6 +29,7 @@ public class ParkingMap extends MapActivity {
         map.setBuiltInZoomControls(true);
         map.getController().setCenter(getPoint(extras.getDouble("lat"), extras.getDouble("lon")));
         map.getController().setZoom(19);
+
         
         List<Overlay> mapOverlays = map.getOverlays();
         Drawable marker = getResources().getDrawable(R.drawable.androidmarker);
@@ -100,6 +105,33 @@ public class ParkingMap extends MapActivity {
         
         mapOverlays.add(overlay);
         
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		super.onCreateOptionsMenu(menu);
+		mInflater = getMenuInflater();
+		if(! map.isSatellite())
+			mInflater.inflate(R.menu.map_map_menu, menu);
+		else
+			mInflater.inflate(R.menu.satellite_map_menu, menu);
+		return true;
+	}
+	
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        
+        case R.id.satellite_view:
+        	map.setSatellite(true);
+        	break;
+        	
+        case R.id.map_view:
+        	map.setSatellite(false);
+        	break;        
+        }
+        
+        return true;
 	}
 
 	@Override
