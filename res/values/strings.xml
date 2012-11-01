@@ -122,6 +122,8 @@
 	<string name="fight_song_stop_button">Stop</string>
 	<string name="student_center_first_label">Student Center First Floor</string>
 	<string name="student_center_second_label">Student Center Second Floor</string>
+	<string name="satellite_view">Satellite View</string>
+	<string name="map_view">Map View</string>
 	
 	<string-array 
 	    name="csu_buildings" >
