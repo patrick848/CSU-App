@@ -36,7 +36,8 @@ public class CampusMap extends MapActivity {
         marker.setBounds(0, 0, marker.getIntrinsicWidth(),
         		marker.getIntrinsicHeight());
         CSUOverlay overlay = new CSUOverlay(marker, this);
-        OverlayItem overlayItem = new OverlayItem(map.getMapCenter(), null, null);
+        OverlayItem overlayItem = new OverlayItem(map.getMapCenter(),
+        		extras.getString("placeName"), null);
         overlay.addOverlay(overlayItem);
         mapOverlays.add(overlay);
         
