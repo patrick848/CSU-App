@@ -17,6 +17,7 @@ import com.google.android.maps.OverlayItem;
 public class CSUOverlay extends ItemizedOverlay<OverlayItem> {
 	
 	Context context;
+	int selected = 0;
 	
 	private List<OverlayItem> mOverlays = new ArrayList<OverlayItem>();
 
@@ -47,22 +48,45 @@ public class CSUOverlay extends ItemizedOverlay<OverlayItem> {
 		
 		AlertDialog.Builder builder = new AlertDialog.Builder(context);
 		
-		builder.setTitle(R.string.navigation_title);
-		
-		builder.setMessage(context.getResources().getString(R.string.navigate)
+		builder.setTitle(context.getResources().getString(R.string.navigate)
 				+ mOverlays.get(i).getTitle()
 				+ context.getResources().getString(R.string.question_mark));
 		
+		CharSequence[] items = {"Driving?", "Walking?", "Bus?"};
+		builder.setSingleChoiceItems(items, selected, new DialogInterface.OnClickListener() {
+			
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				selected = which;
+			}
+		});
+		
 		builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
 	           public void onClick(DialogInterface dialog, int id) {
+	        	   String navigationUri = "google.navigation:ll="	               
+	        			   + (mOverlays.get(i).getPoint().getLatitudeE6() / 1E6)
+	        			   + ","
+	        			   + (mOverlays.get(i).getPoint().getLongitudeE6() / 1E6);
+	               if(selected == 0)
+	            	   navigationUri = navigationUri + "&mode=d";
+	               else if(selected == 1)
+	            	   navigationUri = navigationUri + "&mode=w";
+	               else if(selected == 2)
+	            	   navigationUri =
+	            	   "http://maps.google.com/maps?daddr="
+	            	   + (mOverlays.get(i).getPoint().getLatitudeE6() / 1E6)
+	            	   + ","
+	            	   + (mOverlays.get(i).getPoint().getLongitudeE6() / 1E6)
+	            	   + "&dirflg=r";
+	               
 	               Intent navigate = new Intent(Intent.ACTION_VIEW,
-	            		   Uri.parse("google.navigation:ll="
-	               + mOverlays.get(i).getPoint().getLatitudeE6() / 1E6 +","
-	               + mOverlays.get(i).getPoint().getLongitudeE6() / 1E6));
+	            		   Uri.parse(navigationUri));
+	         
 	               context.startActivity(navigate);
 	               
 	           }
 	       });
+		
 		
 		builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
 	           public void onClick(DialogInterface dialog, int id) {
